@@ -1,0 +1,87 @@
+{
+    "compos": [
+        {
+            "id": 1,
+            "class": "Text",
+            "height": 25,
+            "width": 64,
+            "position": {
+                "column_min": 52,
+                "row_min": 28,
+                "column_max": 116,
+                "row_max": 53
+            },
+            "text_content": "22:53"
+        },
+        {
+            "id": 0,
+            "class": "Text",
+            "height": 36,
+            "width": 169,
+            "position": {
+                "column_min": 511,
+                "row_min": 23,
+                "column_max": 680,
+                "row_max": 59
+            },
+            "text_content": "8.800 V 56 100"
+        },
+        {
+            "id": 2,
+            "class": "Text",
+            "height": 10,
+            "width": 15,
+            "position": {
+                "column_min": 201,
+                "row_min": 38,
+                "column_max": 216,
+                "row_max": 48
+            },
+            "text_content": "?"
+        },
+        {
+            "id": 3,
+            "class": "Text",
+            "height": 43,
+            "width": 64,
+            "position": {
+                "column_min": 70,
+                "row_min": 706,
+                "column_max": 134,
+                "row_max": 749
+            },
+            "text_content": "AC"
+        },
+        {
+            "id": 4,
+            "class": "Text",
+            "height": 40,
+            "width": 42,
+            "position": {
+                "column_min": 254,
+                "row_min": 707,
+                "column_max": 296,
+                "row_max": 747
+            },
+            "text_content": "%"
+        },
+        {
+            "id": 5,
+            "class": "Text",
+            "height": 42,
+            "width": 41,
+            "position": {
+                "column_min": 594,
+                "row_min": 1221,
+                "column_max": 635,
+                "row_max": 1263
+            },
+            "text_content": "+"
+        }
+    ],
+    "img_shape": [
+        1604,
+        720,
+        3
+    ]
+}

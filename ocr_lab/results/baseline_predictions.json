@@ -1,0 +1,2909 @@
+{
+  "images_dir": "ocr_lab/dataset/benchmark_images",
+  "model_root": ".",
+  "det_dir": "ch_ppocr_mobile_v2.0_det_infer",
+  "cls_dir": "ch_ppocr_mobile_v2.0_cls_infer",
+  "rec_dir": "ch_ppocr_mobile_v2.0_rec_infer",
+  "image_count": 30,
+  "results": [
+    {
+      "file": "screenshot-1776354130.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776354130.png",
+      "raw_count": 8,
+      "merged_count": 7,
+      "merged_texts": [
+        {
+          "text": "21:12",
+          "bbox": {
+            "left": 47,
+            "top": 28,
+            "right": 104,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "5.00 5",
+          "bbox": {
+            "left": 479,
+            "top": 27,
+            "right": 599,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "58",
+          "bbox": {
+            "left": 614,
+            "top": 33,
+            "right": 652,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 175,
+            "top": 281,
+            "right": 272,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 275,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "21:12 5.00 5 58 Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "21:12 5.00 5 58 featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776354210.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776354210.png",
+      "raw_count": 8,
+      "merged_count": 7,
+      "merged_texts": [
+        {
+          "text": "21:13",
+          "bbox": {
+            "left": 47,
+            "top": 28,
+            "right": 102,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "0.55y 5G",
+          "bbox": {
+            "left": 483,
+            "top": 28,
+            "right": 597,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "58",
+          "bbox": {
+            "left": 614,
+            "top": 32,
+            "right": 656,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 175,
+            "top": 281,
+            "right": 272,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 275,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "21:13 0.55y 5G 58 Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "21:13 0.55y 5g 58 featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776354388.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776354388.png",
+      "raw_count": 7,
+      "merged_count": 7,
+      "merged_texts": [
+        {
+          "text": "21:16",
+          "bbox": {
+            "left": 43,
+            "top": 28,
+            "right": 102,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "5G",
+          "bbox": {
+            "left": 556,
+            "top": 28,
+            "right": 594,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "58",
+          "bbox": {
+            "left": 611,
+            "top": 32,
+            "right": 649,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 175,
+            "top": 281,
+            "right": 272,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "21:16 5G 58 Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "21:16 5g 58 featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776354408.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776354408.png",
+      "raw_count": 17,
+      "merged_count": 6,
+      "merged_texts": [
+        {
+          "text": "21:16",
+          "bbox": {
+            "left": 42,
+            "top": 28,
+            "right": 102,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "1.89 56 56",
+          "bbox": {
+            "left": 483,
+            "top": 25,
+            "right": 595,
+            "bottom": 58
+          }
+        },
+        {
+          "text": "58",
+          "bbox": {
+            "left": 611,
+            "top": 32,
+            "right": 649,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "21:16 1.89 56 56 58 AC % +",
+      "normalized_text": "21:16 1.89 56 56 58 ac % +"
+    },
+    {
+      "file": "screenshot-1776354441.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776354441.png",
+      "raw_count": 17,
+      "merged_count": 6,
+      "merged_texts": [
+        {
+          "text": "21:17",
+          "bbox": {
+            "left": 42,
+            "top": 28,
+            "right": 99,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "8800 y 560",
+          "bbox": {
+            "left": 479,
+            "top": 25,
+            "right": 594,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "58",
+          "bbox": {
+            "left": 611,
+            "top": 32,
+            "right": 649,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "21:17 8800 y 560 58 AC % +",
+      "normalized_text": "21:17 8800 y 560 58 ac % +"
+    },
+    {
+      "file": "screenshot-1776354498.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776354498.png",
+      "raw_count": 18,
+      "merged_count": 6,
+      "merged_texts": [
+        {
+          "text": "21:18",
+          "bbox": {
+            "left": 42,
+            "top": 28,
+            "right": 99,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "18/S y6 5G",
+          "bbox": {
+            "left": 481,
+            "top": 27,
+            "right": 594,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "58",
+          "bbox": {
+            "left": 611,
+            "top": 32,
+            "right": 646,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "21:18 18/S y6 5G 58 AC % +",
+      "normalized_text": "21:18 18/s y6 5g 58 ac % +"
+    },
+    {
+      "file": "screenshot-1776355295.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776355295.png",
+      "raw_count": 34,
+      "merged_count": 25,
+      "merged_texts": [
+        {
+          "text": "21:31",
+          "bbox": {
+            "left": 36,
+            "top": 28,
+            "right": 93,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "3.800 yG 5G",
+          "bbox": {
+            "left": 474,
+            "top": 20,
+            "right": 593,
+            "bottom": 62
+          }
+        },
+        {
+          "text": "60",
+          "bbox": {
+            "left": 604,
+            "top": 30,
+            "right": 646,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "Dive into D...",
+          "bbox": {
+            "left": 28,
+            "top": 279,
+            "right": 145,
+            "bottom": 302
+          }
+        },
+        {
+          "text": "ISR : Stude...",
+          "bbox": {
+            "left": 162,
+            "top": 274,
+            "right": 281,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "xlms.rkmveri",
+          "bbox": {
+            "left": 294,
+            "top": 281,
+            "right": 426,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "Skymovies... Speech an...",
+          "bbox": {
+            "left": 432,
+            "top": 277,
+            "right": 694,
+            "bottom": 309
+          }
+        },
+        {
+          "text": "44",
+          "bbox": {
+            "left": 516,
+            "top": 373,
+            "right": 556,
+            "bottom": 401
+          }
+        },
+        {
+          "text": "Deep Leam.. Google Gro...",
+          "bbox": {
+            "left": 22,
+            "top": 505,
+            "right": 286,
+            "bottom": 530
+          }
+        },
+        {
+          "text": "Facebook",
+          "bbox": {
+            "left": 448,
+            "top": 508,
+            "right": 549,
+            "bottom": 526
+          }
+        },
+        {
+          "text": "Google Ge...",
+          "bbox": {
+            "left": 571,
+            "top": 501,
+            "right": 694,
+            "bottom": 535
+          }
+        },
+        {
+          "text": "nat",
+          "bbox": {
+            "left": 329,
+            "top": 513,
+            "right": 362,
+            "bottom": 525
+          }
+        },
+        {
+          "text": "Me",
+          "bbox": {
+            "left": 595,
+            "top": 628,
+            "right": 692,
+            "bottom": 698
+          }
+        },
+        {
+          "text": "Lectures o.",
+          "bbox": {
+            "left": 29,
+            "top": 733,
+            "right": 133,
+            "bottom": 752
+          }
+        },
+        {
+          "text": "nools",
+          "bbox": {
+            "left": 230,
+            "top": 733,
+            "right": 284,
+            "bottom": 752
+          }
+        },
+        {
+          "text": "NSPOTR",
+          "bbox": {
+            "left": 309,
+            "top": 726,
+            "right": 407,
+            "bottom": 754
+          }
+        },
+        {
+          "text": "Clean",
+          "bbox": {
+            "left": 448,
+            "top": 728,
+            "right": 515,
+            "bottom": 757
+          }
+        },
+        {
+          "text": "up",
+          "bbox": {
+            "left": 516,
+            "top": 735,
+            "right": 545,
+            "bottom": 755
+          }
+        },
+        {
+          "text": "Medium",
+          "bbox": {
+            "left": 587,
+            "top": 728,
+            "right": 680,
+            "bottom": 757
+          }
+        },
+        {
+          "text": "rapido",
+          "bbox": {
+            "left": 38,
+            "top": 871,
+            "right": 133,
+            "bottom": 901
+          }
+        },
+        {
+          "text": "Rapido",
+          "bbox": {
+            "left": 48,
+            "top": 956,
+            "right": 128,
+            "bottom": 979
+          }
+        },
+        {
+          "text": "Brave",
+          "bbox": {
+            "left": 186,
+            "top": 954,
+            "right": 255,
+            "bottom": 981
+          }
+        },
+        {
+          "text": "Firefox",
+          "bbox": {
+            "left": 324,
+            "top": 954,
+            "right": 398,
+            "bottom": 979
+          }
+        },
+        {
+          "text": "GitHub",
+          "bbox": {
+            "left": 458,
+            "top": 952,
+            "right": 535,
+            "bottom": 980
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 296,
+            "top": 1283,
+            "right": 421,
+            "bottom": 1312
+          }
+        }
+      ],
+      "flat_text": "21:31 3.800 yG 5G 60 Dive into D... ISR : Stude... xlms.rkmveri Skymovies... Speech an... 44 Deep Leam.. Google Gro... Facebook Google Ge... nat Me Lectures o. nools NSPOTR Clean up Medium rapido Rapido Brave Firefox GitHub QSEARCH",
+      "normalized_text": "21:31 3.800 yg 5g 60 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch"
+    },
+    {
+      "file": "screenshot-1776355404.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776355404.png",
+      "raw_count": 33,
+      "merged_count": 24,
+      "merged_texts": [
+        {
+          "text": "21:33",
+          "bbox": {
+            "left": 35,
+            "top": 28,
+            "right": 95,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "5.800  5G 604",
+          "bbox": {
+            "left": 471,
+            "top": 27,
+            "right": 668,
+            "bottom": 58
+          }
+        },
+        {
+          "text": "Dive into D...",
+          "bbox": {
+            "left": 28,
+            "top": 279,
+            "right": 145,
+            "bottom": 302
+          }
+        },
+        {
+          "text": "ISR : Stude...",
+          "bbox": {
+            "left": 162,
+            "top": 274,
+            "right": 281,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "xlms.rkmveri",
+          "bbox": {
+            "left": 294,
+            "top": 281,
+            "right": 426,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "Skymovies... Speech an...",
+          "bbox": {
+            "left": 432,
+            "top": 277,
+            "right": 694,
+            "bottom": 309
+          }
+        },
+        {
+          "text": "44",
+          "bbox": {
+            "left": 516,
+            "top": 373,
+            "right": 556,
+            "bottom": 401
+          }
+        },
+        {
+          "text": "Deep Leam.. Google Gro...",
+          "bbox": {
+            "left": 22,
+            "top": 505,
+            "right": 286,
+            "bottom": 530
+          }
+        },
+        {
+          "text": "Facebook",
+          "bbox": {
+            "left": 448,
+            "top": 508,
+            "right": 549,
+            "bottom": 526
+          }
+        },
+        {
+          "text": "Google Ge...",
+          "bbox": {
+            "left": 571,
+            "top": 501,
+            "right": 694,
+            "bottom": 535
+          }
+        },
+        {
+          "text": "nat",
+          "bbox": {
+            "left": 329,
+            "top": 513,
+            "right": 362,
+            "bottom": 525
+          }
+        },
+        {
+          "text": "Me",
+          "bbox": {
+            "left": 595,
+            "top": 628,
+            "right": 692,
+            "bottom": 698
+          }
+        },
+        {
+          "text": "Lectures o.",
+          "bbox": {
+            "left": 29,
+            "top": 733,
+            "right": 133,
+            "bottom": 752
+          }
+        },
+        {
+          "text": "nools",
+          "bbox": {
+            "left": 230,
+            "top": 733,
+            "right": 284,
+            "bottom": 752
+          }
+        },
+        {
+          "text": "NSPOTR",
+          "bbox": {
+            "left": 309,
+            "top": 726,
+            "right": 407,
+            "bottom": 754
+          }
+        },
+        {
+          "text": "Clean",
+          "bbox": {
+            "left": 448,
+            "top": 728,
+            "right": 515,
+            "bottom": 757
+          }
+        },
+        {
+          "text": "up",
+          "bbox": {
+            "left": 516,
+            "top": 735,
+            "right": 545,
+            "bottom": 755
+          }
+        },
+        {
+          "text": "Medium",
+          "bbox": {
+            "left": 587,
+            "top": 728,
+            "right": 680,
+            "bottom": 757
+          }
+        },
+        {
+          "text": "rapido",
+          "bbox": {
+            "left": 38,
+            "top": 871,
+            "right": 133,
+            "bottom": 901
+          }
+        },
+        {
+          "text": "Rapido",
+          "bbox": {
+            "left": 48,
+            "top": 956,
+            "right": 128,
+            "bottom": 979
+          }
+        },
+        {
+          "text": "Brave",
+          "bbox": {
+            "left": 186,
+            "top": 954,
+            "right": 255,
+            "bottom": 981
+          }
+        },
+        {
+          "text": "Firefox",
+          "bbox": {
+            "left": 324,
+            "top": 954,
+            "right": 398,
+            "bottom": 979
+          }
+        },
+        {
+          "text": "GitHub",
+          "bbox": {
+            "left": 458,
+            "top": 952,
+            "right": 535,
+            "bottom": 980
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 296,
+            "top": 1283,
+            "right": 421,
+            "bottom": 1312
+          }
+        }
+      ],
+      "flat_text": "21:33 5.800  5G 604 Dive into D... ISR : Stude... xlms.rkmveri Skymovies... Speech an... 44 Deep Leam.. Google Gro... Facebook Google Ge... nat Me Lectures o. nools NSPOTR Clean up Medium rapido Rapido Brave Firefox GitHub QSEARCH",
+      "normalized_text": "21:33 5.800 5g 604 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch"
+    },
+    {
+      "file": "screenshot-1776355465.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776355465.png",
+      "raw_count": 31,
+      "merged_count": 25,
+      "merged_texts": [
+        {
+          "text": "21:34",
+          "bbox": {
+            "left": 35,
+            "top": 28,
+            "right": 95,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "5G",
+          "bbox": {
+            "left": 540,
+            "top": 25,
+            "right": 588,
+            "bottom": 58
+          }
+        },
+        {
+          "text": "60",
+          "bbox": {
+            "left": 602,
+            "top": 32,
+            "right": 644,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "Dive into D...",
+          "bbox": {
+            "left": 28,
+            "top": 279,
+            "right": 145,
+            "bottom": 302
+          }
+        },
+        {
+          "text": "ISR : Stude...",
+          "bbox": {
+            "left": 162,
+            "top": 274,
+            "right": 281,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "xlms.rkmveri",
+          "bbox": {
+            "left": 294,
+            "top": 281,
+            "right": 426,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "Skymovies... Speech an...",
+          "bbox": {
+            "left": 432,
+            "top": 277,
+            "right": 694,
+            "bottom": 309
+          }
+        },
+        {
+          "text": "44",
+          "bbox": {
+            "left": 516,
+            "top": 373,
+            "right": 556,
+            "bottom": 401
+          }
+        },
+        {
+          "text": "Deep Leam.. Google Gro...",
+          "bbox": {
+            "left": 22,
+            "top": 505,
+            "right": 286,
+            "bottom": 530
+          }
+        },
+        {
+          "text": "Facebook",
+          "bbox": {
+            "left": 448,
+            "top": 508,
+            "right": 549,
+            "bottom": 526
+          }
+        },
+        {
+          "text": "Google Ge...",
+          "bbox": {
+            "left": 571,
+            "top": 501,
+            "right": 694,
+            "bottom": 535
+          }
+        },
+        {
+          "text": "nat",
+          "bbox": {
+            "left": 329,
+            "top": 513,
+            "right": 362,
+            "bottom": 525
+          }
+        },
+        {
+          "text": "Me",
+          "bbox": {
+            "left": 595,
+            "top": 628,
+            "right": 692,
+            "bottom": 698
+          }
+        },
+        {
+          "text": "Lectures o.",
+          "bbox": {
+            "left": 29,
+            "top": 733,
+            "right": 133,
+            "bottom": 752
+          }
+        },
+        {
+          "text": "nools",
+          "bbox": {
+            "left": 230,
+            "top": 733,
+            "right": 284,
+            "bottom": 752
+          }
+        },
+        {
+          "text": "NSPOTR",
+          "bbox": {
+            "left": 309,
+            "top": 726,
+            "right": 407,
+            "bottom": 754
+          }
+        },
+        {
+          "text": "Clean",
+          "bbox": {
+            "left": 448,
+            "top": 728,
+            "right": 515,
+            "bottom": 757
+          }
+        },
+        {
+          "text": "up",
+          "bbox": {
+            "left": 516,
+            "top": 735,
+            "right": 545,
+            "bottom": 755
+          }
+        },
+        {
+          "text": "Medium",
+          "bbox": {
+            "left": 587,
+            "top": 728,
+            "right": 680,
+            "bottom": 757
+          }
+        },
+        {
+          "text": "rapido",
+          "bbox": {
+            "left": 38,
+            "top": 871,
+            "right": 133,
+            "bottom": 901
+          }
+        },
+        {
+          "text": "Rapido",
+          "bbox": {
+            "left": 48,
+            "top": 956,
+            "right": 128,
+            "bottom": 979
+          }
+        },
+        {
+          "text": "Brave",
+          "bbox": {
+            "left": 186,
+            "top": 954,
+            "right": 255,
+            "bottom": 981
+          }
+        },
+        {
+          "text": "Firefox",
+          "bbox": {
+            "left": 324,
+            "top": 954,
+            "right": 398,
+            "bottom": 979
+          }
+        },
+        {
+          "text": "GitHub",
+          "bbox": {
+            "left": 458,
+            "top": 952,
+            "right": 535,
+            "bottom": 980
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 296,
+            "top": 1283,
+            "right": 421,
+            "bottom": 1312
+          }
+        }
+      ],
+      "flat_text": "21:34 5G 60 Dive into D... ISR : Stude... xlms.rkmveri Skymovies... Speech an... 44 Deep Leam.. Google Gro... Facebook Google Ge... nat Me Lectures o. nools NSPOTR Clean up Medium rapido Rapido Brave Firefox GitHub QSEARCH",
+      "normalized_text": "21:34 5g 60 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch"
+    },
+    {
+      "file": "screenshot-1776355583.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776355583.png",
+      "raw_count": 33,
+      "merged_count": 25,
+      "merged_texts": [
+        {
+          "text": "21:36",
+          "bbox": {
+            "left": 33,
+            "top": 28,
+            "right": 95,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "1708 #560",
+          "bbox": {
+            "left": 471,
+            "top": 25,
+            "right": 587,
+            "bottom": 60
+          }
+        },
+        {
+          "text": "61",
+          "bbox": {
+            "left": 601,
+            "top": 32,
+            "right": 644,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "Dive into D...",
+          "bbox": {
+            "left": 28,
+            "top": 279,
+            "right": 145,
+            "bottom": 302
+          }
+        },
+        {
+          "text": "ISR : Stude...",
+          "bbox": {
+            "left": 162,
+            "top": 274,
+            "right": 281,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "xlms.rkmveri",
+          "bbox": {
+            "left": 294,
+            "top": 281,
+            "right": 426,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "Skymovies... Speech an...",
+          "bbox": {
+            "left": 432,
+            "top": 277,
+            "right": 694,
+            "bottom": 309
+          }
+        },
+        {
+          "text": "44",
+          "bbox": {
+            "left": 516,
+            "top": 373,
+            "right": 556,
+            "bottom": 401
+          }
+        },
+        {
+          "text": "Deep Leam.. Google Gro...",
+          "bbox": {
+            "left": 22,
+            "top": 505,
+            "right": 286,
+            "bottom": 530
+          }
+        },
+        {
+          "text": "Facebook",
+          "bbox": {
+            "left": 448,
+            "top": 508,
+            "right": 549,
+            "bottom": 526
+          }
+        },
+        {
+          "text": "Google Ge...",
+          "bbox": {
+            "left": 571,
+            "top": 501,
+            "right": 694,
+            "bottom": 535
+          }
+        },
+        {
+          "text": "nat",
+          "bbox": {
+            "left": 329,
+            "top": 513,
+            "right": 362,
+            "bottom": 525
+          }
+        },
+        {
+          "text": "Me",
+          "bbox": {
+            "left": 595,
+            "top": 628,
+            "right": 692,
+            "bottom": 698
+          }
+        },
+        {
+          "text": "Lectures o.",
+          "bbox": {
+            "left": 29,
+            "top": 733,
+            "right": 133,
+            "bottom": 752
+          }
+        },
+        {
+          "text": "nools",
+          "bbox": {
+            "left": 230,
+            "top": 733,
+            "right": 284,
+            "bottom": 752
+          }
+        },
+        {
+          "text": "NSPOTR",
+          "bbox": {
+            "left": 309,
+            "top": 726,
+            "right": 407,
+            "bottom": 754
+          }
+        },
+        {
+          "text": "Clean",
+          "bbox": {
+            "left": 448,
+            "top": 728,
+            "right": 515,
+            "bottom": 757
+          }
+        },
+        {
+          "text": "up",
+          "bbox": {
+            "left": 516,
+            "top": 735,
+            "right": 545,
+            "bottom": 755
+          }
+        },
+        {
+          "text": "Medium",
+          "bbox": {
+            "left": 587,
+            "top": 728,
+            "right": 680,
+            "bottom": 757
+          }
+        },
+        {
+          "text": "rapido",
+          "bbox": {
+            "left": 38,
+            "top": 871,
+            "right": 133,
+            "bottom": 901
+          }
+        },
+        {
+          "text": "Rapido",
+          "bbox": {
+            "left": 48,
+            "top": 956,
+            "right": 128,
+            "bottom": 979
+          }
+        },
+        {
+          "text": "Brave",
+          "bbox": {
+            "left": 186,
+            "top": 954,
+            "right": 255,
+            "bottom": 981
+          }
+        },
+        {
+          "text": "Firefox",
+          "bbox": {
+            "left": 324,
+            "top": 954,
+            "right": 398,
+            "bottom": 979
+          }
+        },
+        {
+          "text": "GitHub",
+          "bbox": {
+            "left": 458,
+            "top": 952,
+            "right": 535,
+            "bottom": 980
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 296,
+            "top": 1283,
+            "right": 421,
+            "bottom": 1312
+          }
+        }
+      ],
+      "flat_text": "21:36 1708 #560 61 Dive into D... ISR : Stude... xlms.rkmveri Skymovies... Speech an... 44 Deep Leam.. Google Gro... Facebook Google Ge... nat Me Lectures o. nools NSPOTR Clean up Medium rapido Rapido Brave Firefox GitHub QSEARCH",
+      "normalized_text": "21:36 1708 #560 61 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch"
+    },
+    {
+      "file": "screenshot-1776356182.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776356182.png",
+      "raw_count": 17,
+      "merged_count": 6,
+      "merged_texts": [
+        {
+          "text": "21:46",
+          "bbox": {
+            "left": 35,
+            "top": 28,
+            "right": 99,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "81 8 5G",
+          "bbox": {
+            "left": 472,
+            "top": 20,
+            "right": 592,
+            "bottom": 60
+          }
+        },
+        {
+          "text": "62",
+          "bbox": {
+            "left": 602,
+            "top": 32,
+            "right": 642,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 751
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "21:46 81 8 5G 62 AC % +",
+      "normalized_text": "21:46 81 8 5g 62 ac % +"
+    },
+    {
+      "file": "screenshot-1776356548.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776356548.png",
+      "raw_count": 17,
+      "merged_count": 6,
+      "merged_texts": [
+        {
+          "text": "21:52",
+          "bbox": {
+            "left": 40,
+            "top": 28,
+            "right": 102,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "561",
+          "bbox": {
+            "left": 557,
+            "top": 27,
+            "right": 590,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "63",
+          "bbox": {
+            "left": 611,
+            "top": 32,
+            "right": 644,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "21:52 561 63 AC % +",
+      "normalized_text": "21:52 561 63 ac % +"
+    },
+    {
+      "file": "screenshot-1776526798.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776526798.png",
+      "raw_count": 12,
+      "merged_count": 9,
+      "merged_texts": [
+        {
+          "text": "21:10",
+          "bbox": {
+            "left": 42,
+            "top": 28,
+            "right": 99,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "18/9 yG 56 100",
+          "bbox": {
+            "left": 505,
+            "top": 25,
+            "right": 673,
+            "bottom": 58
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "21:10 18/9 yG 56 100 Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "21:10 18/9 yg 56 100 gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776529150.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776529150.png",
+      "raw_count": 13,
+      "merged_count": 9,
+      "merged_texts": [
+        {
+          "text": "21:49",
+          "bbox": {
+            "left": 50,
+            "top": 28,
+            "right": 112,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "606 yG 5G 100",
+          "bbox": {
+            "left": 512,
+            "top": 27,
+            "right": 680,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "21:49 606 yG 5G 100 Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "21:49 606 yg 5g 100 gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776529321.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776529321.png",
+      "raw_count": 12,
+      "merged_count": 11,
+      "merged_texts": [
+        {
+          "text": "21:52",
+          "bbox": {
+            "left": 48,
+            "top": 28,
+            "right": 109,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "cb",
+          "bbox": {
+            "left": 225,
+            "top": 35,
+            "right": 244,
+            "bottom": 48
+          }
+        },
+        {
+          "text": "287 yG",
+          "bbox": {
+            "left": 511,
+            "top": 28,
+            "right": 575,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "100",
+          "bbox": {
+            "left": 630,
+            "top": 30,
+            "right": 678,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "21:52 cb 287 yG 100 Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "21:52 cb 287 yg 100 gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776529428.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776529428.png",
+      "raw_count": 12,
+      "merged_count": 9,
+      "merged_texts": [
+        {
+          "text": "21:53",
+          "bbox": {
+            "left": 47,
+            "top": 28,
+            "right": 107,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "6710 6 5G 100",
+          "bbox": {
+            "left": 505,
+            "top": 27,
+            "right": 677,
+            "bottom": 58
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "21:53 6710 6 5G 100 Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "21:53 6710 6 5g 100 gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776529584.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776529584.png",
+      "raw_count": 12,
+      "merged_count": 10,
+      "merged_texts": [
+        {
+          "text": "21:56",
+          "bbox": {
+            "left": 43,
+            "top": 28,
+            "right": 106,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "88/0 yG 56",
+          "bbox": {
+            "left": 504,
+            "top": 25,
+            "right": 618,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "100",
+          "bbox": {
+            "left": 630,
+            "top": 30,
+            "right": 673,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "21:56 88/0 yG 56 100 Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "21:56 88/0 yg 56 100 gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776530081.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776530081.png",
+      "raw_count": 12,
+      "merged_count": 10,
+      "merged_texts": [
+        {
+          "text": "22:04",
+          "bbox": {
+            "left": 40,
+            "top": 28,
+            "right": 106,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "R:27 y",
+          "bbox": {
+            "left": 495,
+            "top": 25,
+            "right": 568,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "100",
+          "bbox": {
+            "left": 625,
+            "top": 28,
+            "right": 670,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "22:04 R:27 y 100 Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "22:04 r:27 y 100 gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776530369.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776530369.png",
+      "raw_count": 13,
+      "merged_count": 10,
+      "merged_texts": [
+        {
+          "text": "22:09",
+          "bbox": {
+            "left": 35,
+            "top": 28,
+            "right": 102,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "Cb",
+          "bbox": {
+            "left": 246,
+            "top": 32,
+            "right": 270,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "777 56 100",
+          "bbox": {
+            "left": 498,
+            "top": 25,
+            "right": 666,
+            "bottom": 58
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "22:09 Cb 777 56 100 Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "22:09 cb 777 56 100 gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776530775.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776530775.png",
+      "raw_count": 13,
+      "merged_count": 10,
+      "merged_texts": [
+        {
+          "text": "22:16",
+          "bbox": {
+            "left": 38,
+            "top": 28,
+            "right": 100,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "6.00 56 100",
+          "bbox": {
+            "left": 497,
+            "top": 23,
+            "right": 670,
+            "bottom": 58
+          }
+        },
+        {
+          "text": "cb",
+          "bbox": {
+            "left": 246,
+            "top": 33,
+            "right": 265,
+            "bottom": 50
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "22:16 6.00 56 100 cb Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "22:16 6.00 56 100 cb gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776531130.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776531130.png",
+      "raw_count": 12,
+      "merged_count": 11,
+      "merged_texts": [
+        {
+          "text": "22:22",
+          "bbox": {
+            "left": 42,
+            "top": 28,
+            "right": 107,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "Cb",
+          "bbox": {
+            "left": 251,
+            "top": 32,
+            "right": 275,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "103",
+          "bbox": {
+            "left": 504,
+            "top": 28,
+            "right": 549,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "100",
+          "bbox": {
+            "left": 628,
+            "top": 30,
+            "right": 672,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "22:22 Cb 103 100 Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "22:22 cb 103 100 gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776531290.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776531290.png",
+      "raw_count": 14,
+      "merged_count": 11,
+      "merged_texts": [
+        {
+          "text": "22:24",
+          "bbox": {
+            "left": 45,
+            "top": 28,
+            "right": 109,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "cb",
+          "bbox": {
+            "left": 256,
+            "top": 33,
+            "right": 275,
+            "bottom": 50
+          }
+        },
+        {
+          "text": "18/9",
+          "bbox": {
+            "left": 505,
+            "top": 27,
+            "right": 545,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "100",
+          "bbox": {
+            "left": 632,
+            "top": 32,
+            "right": 673,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "Gmo",
+          "bbox": {
+            "left": 47,
+            "top": 172,
+            "right": 125,
+            "bottom": 195
+          }
+        },
+        {
+          "text": "000",
+          "bbox": {
+            "left": 47,
+            "top": 227,
+            "right": 125,
+            "bottom": 252
+          }
+        },
+        {
+          "text": "Google",
+          "bbox": {
+            "left": 46,
+            "top": 279,
+            "right": 129,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "Featured",
+          "bbox": {
+            "left": 178,
+            "top": 282,
+            "right": 270,
+            "bottom": 301
+          }
+        },
+        {
+          "text": "Office",
+          "bbox": {
+            "left": 329,
+            "top": 279,
+            "right": 393,
+            "bottom": 304
+          }
+        },
+        {
+          "text": "The 5 FREE...",
+          "bbox": {
+            "left": 567,
+            "top": 274,
+            "right": 698,
+            "bottom": 308
+          }
+        },
+        {
+          "text": "QSEARCH",
+          "bbox": {
+            "left": 298,
+            "top": 1285,
+            "right": 421,
+            "bottom": 1308
+          }
+        }
+      ],
+      "flat_text": "22:24 cb 18/9 100 Gmo 000 Google Featured Office The 5 FREE... QSEARCH",
+      "normalized_text": "22:24 cb 18/9 100 gmo 000 google featured office the 5 free... qsearch"
+    },
+    {
+      "file": "screenshot-1776531329.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776531329.png",
+      "raw_count": 19,
+      "merged_count": 6,
+      "merged_texts": [
+        {
+          "text": "22:25",
+          "bbox": {
+            "left": 47,
+            "top": 28,
+            "right": 111,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "R.61 5G 100",
+          "bbox": {
+            "left": 507,
+            "top": 27,
+            "right": 675,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "eb",
+          "bbox": {
+            "left": 249,
+            "top": 24,
+            "right": 284,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "22:25 R.61 5G 100 eb AC % +",
+      "normalized_text": "22:25 r.61 5g 100 eb ac % +"
+    },
+    {
+      "file": "screenshot-1776531513.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776531513.png",
+      "raw_count": 18,
+      "merged_count": 6,
+      "merged_texts": [
+        {
+          "text": "22:28",
+          "bbox": {
+            "left": 48,
+            "top": 28,
+            "right": 112,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "k:26 yg  5G 100",
+          "bbox": {
+            "left": 500,
+            "top": 25,
+            "right": 677,
+            "bottom": 57
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 199,
+            "top": 37,
+            "right": 208,
+            "bottom": 47
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "22:28 k:26 yg  5G 100 + AC % +",
+      "normalized_text": "22:28 k:26 yg 5g 100 + ac % +"
+    },
+    {
+      "file": "screenshot-1776531687.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776531687.png",
+      "raw_count": 19,
+      "merged_count": 8,
+      "merged_texts": [
+        {
+          "text": "22:31",
+          "bbox": {
+            "left": 50,
+            "top": 28,
+            "right": 109,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "56",
+          "bbox": {
+            "left": 557,
+            "top": 32,
+            "right": 573,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 199,
+            "top": 37,
+            "right": 208,
+            "bottom": 47
+          }
+        },
+        {
+          "text": "100",
+          "bbox": {
+            "left": 635,
+            "top": 28,
+            "right": 678,
+            "bottom": 55
+          }
+        },
+        {
+          "text": "\u54c1:",
+          "bbox": {
+            "left": 450,
+            "top": 107,
+            "right": 673,
+            "bottom": 165
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "22:31 56 + 100 \u54c1: AC % +",
+      "normalized_text": "22:31 56 + 100 \u54c1: ac % +"
+    },
+    {
+      "file": "screenshot-1776531923.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776531923.png",
+      "raw_count": 0,
+      "merged_count": 0,
+      "merged_texts": [],
+      "flat_text": "",
+      "normalized_text": ""
+    },
+    {
+      "file": "screenshot-1776532408.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776532408.png",
+      "raw_count": 0,
+      "merged_count": 0,
+      "merged_texts": [],
+      "flat_text": "",
+      "normalized_text": ""
+    },
+    {
+      "file": "screenshot-1776533003.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776533003.png",
+      "raw_count": 18,
+      "merged_count": 6,
+      "merged_texts": [
+        {
+          "text": "22:53",
+          "bbox": {
+            "left": 52,
+            "top": 28,
+            "right": 116,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "8.800 V 56 100",
+          "bbox": {
+            "left": 511,
+            "top": 23,
+            "right": 680,
+            "bottom": 59
+          }
+        },
+        {
+          "text": "?",
+          "bbox": {
+            "left": 201,
+            "top": 38,
+            "right": 216,
+            "bottom": 48
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "22:53 8.800 V 56 100 ? AC % +",
+      "normalized_text": "22:53 8.800 v 56 100 ? ac % +"
+    },
+    {
+      "file": "screenshot-1776534636.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776534636.png",
+      "raw_count": 19,
+      "merged_count": 7,
+      "merged_texts": [
+        {
+          "text": "23:20",
+          "bbox": {
+            "left": 38,
+            "top": 28,
+            "right": 104,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "KiB83 y 56",
+          "bbox": {
+            "left": 498,
+            "top": 25,
+            "right": 618,
+            "bottom": 58
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 192,
+            "top": 37,
+            "right": 201,
+            "bottom": 47
+          }
+        },
+        {
+          "text": "100",
+          "bbox": {
+            "left": 625,
+            "top": 28,
+            "right": 670,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "23:20 KiB83 y 56 + 100 AC % +",
+      "normalized_text": "23:20 kib83 y 56 + 100 ac % +"
+    },
+    {
+      "file": "screenshot-1776534760.png",
+      "image_path": "ocr_lab/dataset/benchmark_images/screenshot-1776534760.png",
+      "raw_count": 19,
+      "merged_count": 6,
+      "merged_texts": [
+        {
+          "text": "23:22",
+          "bbox": {
+            "left": 38,
+            "top": 28,
+            "right": 102,
+            "bottom": 52
+          }
+        },
+        {
+          "text": "0.B4 50",
+          "bbox": {
+            "left": 497,
+            "top": 23,
+            "right": 611,
+            "bottom": 58
+          }
+        },
+        {
+          "text": "100",
+          "bbox": {
+            "left": 625,
+            "top": 28,
+            "right": 670,
+            "bottom": 53
+          }
+        },
+        {
+          "text": "AC",
+          "bbox": {
+            "left": 70,
+            "top": 706,
+            "right": 134,
+            "bottom": 749
+          }
+        },
+        {
+          "text": "%",
+          "bbox": {
+            "left": 254,
+            "top": 707,
+            "right": 296,
+            "bottom": 747
+          }
+        },
+        {
+          "text": "+",
+          "bbox": {
+            "left": 594,
+            "top": 1221,
+            "right": 635,
+            "bottom": 1263
+          }
+        }
+      ],
+      "flat_text": "23:22 0.B4 50 100 AC % +",
+      "normalized_text": "23:22 0.b4 50 100 ac % +"
+    }
+  ]
+}

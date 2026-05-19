@@ -1,0 +1,89 @@
+{
+    "img_shape": [
+        1604,
+        720,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "22:31",
+            "column_min": 50,
+            "row_min": 28,
+            "column_max": 109,
+            "row_max": 53,
+            "width": 59,
+            "height": 25
+        },
+        {
+            "id": 1,
+            "content": "56",
+            "column_min": 557,
+            "row_min": 32,
+            "column_max": 573,
+            "row_max": 52,
+            "width": 16,
+            "height": 20
+        },
+        {
+            "id": 2,
+            "content": "+",
+            "column_min": 199,
+            "row_min": 37,
+            "column_max": 208,
+            "row_max": 47,
+            "width": 9,
+            "height": 10
+        },
+        {
+            "id": 3,
+            "content": "100",
+            "column_min": 635,
+            "row_min": 28,
+            "column_max": 678,
+            "row_max": 55,
+            "width": 43,
+            "height": 27
+        },
+        {
+            "id": 4,
+            "content": "\u54c1:",
+            "column_min": 450,
+            "row_min": 107,
+            "column_max": 673,
+            "row_max": 165,
+            "width": 223,
+            "height": 58
+        },
+        {
+            "id": 5,
+            "content": "AC",
+            "column_min": 70,
+            "row_min": 706,
+            "column_max": 134,
+            "row_max": 749,
+            "width": 64,
+            "height": 43
+        },
+        {
+            "id": 6,
+            "content": "%",
+            "column_min": 254,
+            "row_min": 707,
+            "column_max": 296,
+            "row_max": 747,
+            "width": 42,
+            "height": 40
+        },
+        {
+            "id": 7,
+            "content": "+",
+            "column_min": 594,
+            "row_min": 1221,
+            "column_max": 635,
+            "row_max": 1263,
+            "width": 41,
+            "height": 42
+        }
+    ]
+}

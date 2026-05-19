@@ -1,0 +1,95 @@
+ocr_lab/dataset/rec_images/screenshot-1776355465__022.png	up
+ocr_lab/dataset/rec_images/screenshot-1776530369__000.png	22:09
+ocr_lab/dataset/rec_images/screenshot-1776356182__005.png	AC
+ocr_lab/dataset/rec_images/screenshot-1776355404__023.png	up
+ocr_lab/dataset/rec_images/screenshot-1776534636__014.png	4
+ocr_lab/dataset/rec_images/screenshot-1776355404__020.png	nools
+ocr_lab/dataset/rec_images/screenshot-1776355465__021.png	Clean
+ocr_lab/dataset/rec_images/screenshot-1776355404__032.png	0
+ocr_lab/dataset/rec_images/screenshot-1776531513__015.png	2
+ocr_lab/dataset/rec_images/screenshot-1776355295__013.png	Leam..
+ocr_lab/dataset/rec_images/screenshot-1776354498__002.png	y6
+ocr_lab/dataset/rec_images/screenshot-1776531130__003.png	5
+ocr_lab/dataset/rec_images/screenshot-1776534760__007.png	AC
+ocr_lab/dataset/rec_images/screenshot-1776356548__005.png	品
+ocr_lab/dataset/rec_images/screenshot-1776354441__005.png	品
+ocr_lab/dataset/rec_images/screenshot-1776355295__018.png	Me
+ocr_lab/dataset/rec_images/screenshot-1776355465__020.png	NSPOTR
+ocr_lab/dataset/rec_images/screenshot-1776355583__006.png	xlms.rkmveri
+ocr_lab/dataset/rec_images/screenshot-1776355465__028.png	GitHub
+ocr_lab/dataset/rec_images/screenshot-1776531130__009.png	Office
+ocr_lab/dataset/rec_images/screenshot-1776531687__006.png	品:
+ocr_lab/dataset/rec_images/screenshot-1776355295__031.png	QSEARCH
+ocr_lab/dataset/rec_images/screenshot-1776355465__001.png	5G
+ocr_lab/dataset/rec_images/screenshot-1776531290__012.png	QSEARCH
+ocr_lab/dataset/rec_images/screenshot-1776354388__005.png	The 5 FREE...
+ocr_lab/dataset/rec_images/screenshot-1776354441__001.png	8800
+ocr_lab/dataset/rec_images/screenshot-1776533003__017.png	+
+ocr_lab/dataset/rec_images/screenshot-1776530081__003.png	5
+ocr_lab/dataset/rec_images/screenshot-1776531513__001.png	k:26 yg
+ocr_lab/dataset/rec_images/screenshot-1776356548__003.png	561
+ocr_lab/dataset/rec_images/screenshot-1776526798__002.png	yG
+ocr_lab/dataset/rec_images/screenshot-1776531687__003.png	+
+ocr_lab/dataset/rec_images/screenshot-1776355465__027.png	Firefox
+ocr_lab/dataset/rec_images/screenshot-1776355404__030.png	QSEARCH
+ocr_lab/dataset/rec_images/screenshot-1776531329__009.png	%
+ocr_lab/dataset/rec_images/screenshot-1776531329__000.png	22:25
+ocr_lab/dataset/rec_images/screenshot-1776355583__014.png	Facebook
+ocr_lab/dataset/rec_images/screenshot-1776354441__010.png	9
+ocr_lab/dataset/rec_images/screenshot-1776355583__026.png	Rapido
+ocr_lab/dataset/rec_images/screenshot-1776354498__017.png	一
+ocr_lab/dataset/rec_images/screenshot-1776355465__016.png	Me
+ocr_lab/dataset/rec_images/screenshot-1776534760__010.png	8
+ocr_lab/dataset/rec_images/screenshot-1776531687__016.png	3
+ocr_lab/dataset/rec_images/screenshot-1776355583__023.png	up
+ocr_lab/dataset/rec_images/screenshot-1776530081__011.png	QSEARCH
+ocr_lab/dataset/rec_images/screenshot-1776355295__020.png	Lectures o.
+ocr_lab/dataset/rec_images/screenshot-1776355583__017.png	Me
+ocr_lab/dataset/rec_images/screenshot-1776356182__015.png	+
+ocr_lab/dataset/rec_images/screenshot-1776529321__000.png	21:52
+ocr_lab/dataset/rec_images/screenshot-1776355465__011.png	Leam..
+ocr_lab/dataset/rec_images/screenshot-1776355404__018.png	C
+ocr_lab/dataset/rec_images/screenshot-1776354408__014.png	2
+ocr_lab/dataset/rec_images/screenshot-1776355583__011.png	Deep
+ocr_lab/dataset/rec_images/screenshot-1776354441__013.png	5
+ocr_lab/dataset/rec_images/screenshot-1776354130__002.png	58
+ocr_lab/dataset/rec_images/screenshot-1776355295__017.png	nat
+ocr_lab/dataset/rec_images/screenshot-1776530775__007.png	000
+ocr_lab/dataset/rec_images/screenshot-1776355404__000.png	21:33
+ocr_lab/dataset/rec_images/screenshot-1776529584__005.png	Gmo
+ocr_lab/dataset/rec_images/screenshot-1776354130__004.png	Office
+ocr_lab/dataset/rec_images/screenshot-1776354130__007.png	0
+ocr_lab/dataset/rec_images/screenshot-1776355583__004.png	Dive into D...
+ocr_lab/dataset/rec_images/screenshot-1776531329__004.png	5G
+ocr_lab/dataset/rec_images/screenshot-1776530081__002.png	y
+ocr_lab/dataset/rec_images/screenshot-1776356182__006.png	%
+ocr_lab/dataset/rec_images/screenshot-1776534636__009.png	%
+ocr_lab/dataset/rec_images/screenshot-1776356182__007.png	7
+ocr_lab/dataset/rec_images/screenshot-1776526798__005.png	Gmo
+ocr_lab/dataset/rec_images/screenshot-1776355583__002.png	Q
+ocr_lab/dataset/rec_images/screenshot-1776534636__015.png	5
+ocr_lab/dataset/rec_images/screenshot-1776530369__002.png	777
+ocr_lab/dataset/rec_images/screenshot-1776355583__025.png	rapido
+ocr_lab/dataset/rec_images/screenshot-1776355583__005.png	ISR : Stude...
+ocr_lab/dataset/rec_images/screenshot-1776354210__003.png	58
+ocr_lab/dataset/rec_images/screenshot-1776354130__006.png	QSEARCH
+ocr_lab/dataset/rec_images/screenshot-1776531513__017.png	+
+ocr_lab/dataset/rec_images/screenshot-1776534636__004.png	+
+ocr_lab/dataset/rec_images/screenshot-1776531290__000.png	22:24
+ocr_lab/dataset/rec_images/screenshot-1776355295__014.png	Google Gro...
+ocr_lab/dataset/rec_images/screenshot-1776530775__000.png	22:16
+ocr_lab/dataset/rec_images/screenshot-1776529428__003.png	比
+ocr_lab/dataset/rec_images/screenshot-1776354408__003.png	56
+ocr_lab/dataset/rec_images/screenshot-1776355295__002.png	5G
+ocr_lab/dataset/rec_images/screenshot-1776356182__011.png	4
+ocr_lab/dataset/rec_images/screenshot-1776354408__011.png	X
+ocr_lab/dataset/rec_images/screenshot-1776355583__019.png	Lectures o.
+ocr_lab/dataset/rec_images/screenshot-1776355295__019.png	C
+ocr_lab/dataset/rec_images/screenshot-1776534760__003.png	50
+ocr_lab/dataset/rec_images/screenshot-1776355465__012.png	Google Gro...
+ocr_lab/dataset/rec_images/screenshot-1776534760__006.png	品
+ocr_lab/dataset/rec_images/screenshot-1776355465__002.png	60
+ocr_lab/dataset/rec_images/screenshot-1776534636__006.png	100
+ocr_lab/dataset/rec_images/screenshot-1776526798__004.png	100
+ocr_lab/dataset/rec_images/screenshot-1776355295__025.png	Medium
+ocr_lab/dataset/rec_images/screenshot-1776530775__008.png	Google

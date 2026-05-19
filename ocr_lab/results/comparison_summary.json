@@ -1,0 +1,446 @@
+{
+  "baseline": {
+    "summary": {
+      "image_count": 30,
+      "exact_match_count": 2,
+      "exact_match_rate": 0.0667,
+      "average_char_accuracy": 0.0847
+    },
+    "rows": [
+      {
+        "file": "screenshot-1776354130.png",
+        "expected_text": "featured office search",
+        "predicted_text": "21:12 5.00 5 58 featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.4151
+      },
+      {
+        "file": "screenshot-1776354210.png",
+        "expected_text": "compose send subject",
+        "predicted_text": "21:13 0.55y 5g 58 featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.1273
+      },
+      {
+        "file": "screenshot-1776354388.png",
+        "expected_text": "",
+        "predicted_text": "21:16 5g 58 featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776354408.png",
+        "expected_text": "",
+        "predicted_text": "21:16 1.89 56 56 58 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776354441.png",
+        "expected_text": "",
+        "predicted_text": "21:17 8800 y 560 58 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776354498.png",
+        "expected_text": "",
+        "predicted_text": "21:18 18/s y6 5g 58 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776355295.png",
+        "expected_text": "",
+        "predicted_text": "21:31 3.800 yg 5g 60 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776355404.png",
+        "expected_text": "",
+        "predicted_text": "21:33 5.800 5g 604 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776355465.png",
+        "expected_text": "",
+        "predicted_text": "21:34 5g 60 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776355583.png",
+        "expected_text": "",
+        "predicted_text": "21:36 1708 #560 61 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776356182.png",
+        "expected_text": "",
+        "predicted_text": "21:46 81 8 5g 62 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776356548.png",
+        "expected_text": "",
+        "predicted_text": "21:52 561 63 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776526798.png",
+        "expected_text": "",
+        "predicted_text": "21:10 18/9 yg 56 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776529150.png",
+        "expected_text": "",
+        "predicted_text": "21:49 606 yg 5g 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776529321.png",
+        "expected_text": "",
+        "predicted_text": "21:52 cb 287 yg 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776529428.png",
+        "expected_text": "",
+        "predicted_text": "21:53 6710 6 5g 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776529584.png",
+        "expected_text": "",
+        "predicted_text": "21:56 88/0 yg 56 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776530081.png",
+        "expected_text": "",
+        "predicted_text": "22:04 r:27 y 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776530369.png",
+        "expected_text": "",
+        "predicted_text": "22:09 cb 777 56 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776530775.png",
+        "expected_text": "",
+        "predicted_text": "22:16 6.00 56 100 cb gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531130.png",
+        "expected_text": "",
+        "predicted_text": "22:22 cb 103 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531290.png",
+        "expected_text": "",
+        "predicted_text": "22:24 cb 18/9 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531329.png",
+        "expected_text": "",
+        "predicted_text": "22:25 r.61 5g 100 eb ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531513.png",
+        "expected_text": "",
+        "predicted_text": "22:28 k:26 yg 5g 100 + ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531687.png",
+        "expected_text": "",
+        "predicted_text": "22:31 56 + 100 \u54c1: ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531923.png",
+        "expected_text": "",
+        "predicted_text": "",
+        "exact_match": true,
+        "char_accuracy": 1.0
+      },
+      {
+        "file": "screenshot-1776532408.png",
+        "expected_text": "",
+        "predicted_text": "",
+        "exact_match": true,
+        "char_accuracy": 1.0
+      },
+      {
+        "file": "screenshot-1776533003.png",
+        "expected_text": "",
+        "predicted_text": "22:53 8.800 v 56 100 ? ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776534636.png",
+        "expected_text": "",
+        "predicted_text": "23:20 kib83 y 56 + 100 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776534760.png",
+        "expected_text": "",
+        "predicted_text": "23:22 0.b4 50 100 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      }
+    ]
+  },
+  "candidate": {
+    "summary": {
+      "image_count": 30,
+      "exact_match_count": 2,
+      "exact_match_rate": 0.0667,
+      "average_char_accuracy": 0.0847
+    },
+    "rows": [
+      {
+        "file": "screenshot-1776354130.png",
+        "expected_text": "featured office search",
+        "predicted_text": "21:12 5.00 5 58 featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.4151
+      },
+      {
+        "file": "screenshot-1776354210.png",
+        "expected_text": "compose send subject",
+        "predicted_text": "21:13 0.55y 5g 58 featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.1273
+      },
+      {
+        "file": "screenshot-1776354388.png",
+        "expected_text": "",
+        "predicted_text": "21:16 5g 58 featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776354408.png",
+        "expected_text": "",
+        "predicted_text": "21:16 1.89 56 56 58 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776354441.png",
+        "expected_text": "",
+        "predicted_text": "21:17 8800 y 560 58 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776354498.png",
+        "expected_text": "",
+        "predicted_text": "21:18 18/s y6 5g 58 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776355295.png",
+        "expected_text": "",
+        "predicted_text": "21:31 3.800 yg 5g 60 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776355404.png",
+        "expected_text": "",
+        "predicted_text": "21:33 5.800 5g 604 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776355465.png",
+        "expected_text": "",
+        "predicted_text": "21:34 5g 60 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776355583.png",
+        "expected_text": "",
+        "predicted_text": "21:36 1708 #560 61 dive into d... isr : stude... xlms.rkmveri skymovies... speech an... 44 deep leam.. google gro... facebook google ge... nat me lectures o. nools nspotr clean up medium rapido rapido brave firefox github qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776356182.png",
+        "expected_text": "",
+        "predicted_text": "21:46 81 8 5g 62 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776356548.png",
+        "expected_text": "",
+        "predicted_text": "21:52 561 63 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776526798.png",
+        "expected_text": "",
+        "predicted_text": "21:10 18/9 yg 56 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776529150.png",
+        "expected_text": "",
+        "predicted_text": "21:49 606 yg 5g 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776529321.png",
+        "expected_text": "",
+        "predicted_text": "21:52 cb 287 yg 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776529428.png",
+        "expected_text": "",
+        "predicted_text": "21:53 6710 6 5g 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776529584.png",
+        "expected_text": "",
+        "predicted_text": "21:56 88/0 yg 56 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776530081.png",
+        "expected_text": "",
+        "predicted_text": "22:04 r:27 y 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776530369.png",
+        "expected_text": "",
+        "predicted_text": "22:09 cb 777 56 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776530775.png",
+        "expected_text": "",
+        "predicted_text": "22:16 6.00 56 100 cb gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531130.png",
+        "expected_text": "",
+        "predicted_text": "22:22 cb 103 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531290.png",
+        "expected_text": "",
+        "predicted_text": "22:24 cb 18/9 100 gmo 000 google featured office the 5 free... qsearch",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531329.png",
+        "expected_text": "",
+        "predicted_text": "22:25 r.61 5g 100 eb ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531513.png",
+        "expected_text": "",
+        "predicted_text": "22:28 k:26 yg 5g 100 + ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531687.png",
+        "expected_text": "",
+        "predicted_text": "22:31 56 + 100 \u54c1: ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776531923.png",
+        "expected_text": "",
+        "predicted_text": "",
+        "exact_match": true,
+        "char_accuracy": 1.0
+      },
+      {
+        "file": "screenshot-1776532408.png",
+        "expected_text": "",
+        "predicted_text": "",
+        "exact_match": true,
+        "char_accuracy": 1.0
+      },
+      {
+        "file": "screenshot-1776533003.png",
+        "expected_text": "",
+        "predicted_text": "22:53 8.800 v 56 100 ? ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776534636.png",
+        "expected_text": "",
+        "predicted_text": "23:20 kib83 y 56 + 100 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      },
+      {
+        "file": "screenshot-1776534760.png",
+        "expected_text": "",
+        "predicted_text": "23:22 0.b4 50 100 ac % +",
+        "exact_match": false,
+        "char_accuracy": 0.0
+      }
+    ]
+  },
+  "delta": {
+    "exact_match_rate": 0.0,
+    "average_char_accuracy": 0.0
+  }
+}

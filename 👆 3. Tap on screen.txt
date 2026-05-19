@@ -1,0 +1,53 @@
+👆 3. Tap on screen
+
+adb shell input tap 300 800
+
+👉 Simulates a finger tap
+
+⌨️ 4. Type text
+
+adb shell input text "hello"
+
+👉 Types text into focused field
+
+⚠️ Note: Spaces need %s
+
+adb shell input text "hello%sworld"
+
+🔘 5. Press buttons (key events)
+
+adb shell input keyevent 3
+
+Common keys:
+
+3 → Home
+4 → Back
+26 → Power
+66 → Enter
+
+
+🔄 6. Swipe / Scroll
+
+adb shell input swipe 300 1000 300 300
+
+🎥 8. Screen recording
+
+adb shell screenrecord /sdcard/demo.mp4
+
+👉 Press Ctrl+C to stop
+
+Then pull:
+
+adb pull /sdcard/demo.mp4
+
+Scengen_Run_Code:
+
+# Experimental run first
+$env:SCENGEN_OCR_REC_DIR = "ocr_lab\models\candidate_finetuned\my_rec_infer"
+venv\Scripts\python.exe test.py <APP-ID> <SCENARIO-ID>
+
+# Clear override
+Remove-Item Env:SCENGEN_OCR_REC_DIR
+
+# Baseline run after that
+venv\Scripts\python.exe test.py <APP-ID> <SCENARIO-ID>

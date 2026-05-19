@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "file": "example_screen_01.png",
+      "expected_text": "search account settings logout"
+    },
+    {
+      "file": "example_screen_02.png",
+      "expected_text": "compose to subject send"
+    }
+  ]
+}

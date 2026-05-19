@@ -1,0 +1,109 @@
+{
+    "img_shape": [
+        1604,
+        720,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "22:16",
+            "column_min": 38,
+            "row_min": 28,
+            "column_max": 100,
+            "row_max": 52,
+            "width": 62,
+            "height": 24
+        },
+        {
+            "id": 1,
+            "content": "6.00 56 100",
+            "column_min": 497,
+            "row_min": 23,
+            "column_max": 670,
+            "row_max": 58,
+            "width": 173,
+            "height": 35
+        },
+        {
+            "id": 2,
+            "content": "cb",
+            "column_min": 246,
+            "row_min": 33,
+            "column_max": 265,
+            "row_max": 50,
+            "width": 19,
+            "height": 17
+        },
+        {
+            "id": 3,
+            "content": "Gmo",
+            "column_min": 47,
+            "row_min": 172,
+            "column_max": 125,
+            "row_max": 195,
+            "width": 78,
+            "height": 23
+        },
+        {
+            "id": 4,
+            "content": "000",
+            "column_min": 47,
+            "row_min": 227,
+            "column_max": 125,
+            "row_max": 252,
+            "width": 78,
+            "height": 25
+        },
+        {
+            "id": 5,
+            "content": "Google",
+            "column_min": 46,
+            "row_min": 279,
+            "column_max": 129,
+            "row_max": 308,
+            "width": 83,
+            "height": 29
+        },
+        {
+            "id": 6,
+            "content": "Featured",
+            "column_min": 178,
+            "row_min": 282,
+            "column_max": 270,
+            "row_max": 301,
+            "width": 92,
+            "height": 19
+        },
+        {
+            "id": 7,
+            "content": "Office",
+            "column_min": 329,
+            "row_min": 279,
+            "column_max": 393,
+            "row_max": 304,
+            "width": 64,
+            "height": 25
+        },
+        {
+            "id": 8,
+            "content": "The 5 FREE...",
+            "column_min": 567,
+            "row_min": 274,
+            "column_max": 698,
+            "row_max": 308,
+            "width": 131,
+            "height": 34
+        },
+        {
+            "id": 9,
+            "content": "QSEARCH",
+            "column_min": 298,
+            "row_min": 1285,
+            "column_max": 421,
+            "row_max": 1308,
+            "width": 123,
+            "height": 23
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+  "images": [
+    {
+      "file": "screenshot-1776354130.png",
+      "expected_text": "featured office search"
+    },
+    {
+      "file": "screenshot-1776354210.png",
+      "expected_text": "compose send subject"
+    },
+    {
+      "file": "screenshot-1776354388.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776354408.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776354441.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776354498.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776355295.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776355404.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776355465.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776355583.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776356182.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776356548.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776526798.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776529150.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776529321.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776529428.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776529584.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776530081.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776530369.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776530775.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776531130.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776531290.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776531329.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776531513.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776531687.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776531923.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776532408.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776533003.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776534636.png",
+      "expected_text": ""
+    },
+    {
+      "file": "screenshot-1776534760.png",
+      "expected_text": ""
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "id":  "S1",
+        "name":  "send email",
+        "description":  "send an email to friend",
+        "extra-info":  {
+                           "friend\u0027s email":  "example@example.com",
+                           "email subject":  "",
+                           "email content":  ""
+                       }
+    },
+    {
+        "id":  "S2",
+        "name":  "play music",
+        "description":  "search and play a song",
+        "extra-info":  {
+                           "target song":  "Turkish March",
+                           "requirement":  "not finished util the song being played"
+                       }
+    },
+    {
+        "id":  "S3",
+        "name":  "take note",
+        "description":  "create a new note with text and save it",
+        "extra-info":  {
+                           "note content":  "Buy milk at 6 PM"
+                       }
+    },
+    {
+        "id":  "S4",
+        "name":  "take photo",
+        "description":  "tap shutter button and confirm photo is taken",
+        "extra-info":  {
+
+                       }
+    },
+    {
+        "id":  "S5",
+        "name":  "translation",
+        "description":  "input a sentence and translate it",
+        "extra-info":  {
+                           "source-language":  "English",
+                           "target-language":  "Chinese",
+                           "sentence to be translated":  "\"Remote work saves time and money on transportation.\""
+                       }
+    },
+    {
+        "id":  "S6",
+        "name":  "shopping",
+        "description":  "add something to shopping cart",
+        "extra-info":  {
+                           "shopping target":  "a men T-shirt"
+                       }
+    },
+    {
+        "id":  "S7",
+        "name":  "login",
+        "description":  "login to the account",
+        "extra-info":  {
+                           "email address":  "example@example.com",
+                           "password":  "example-password",
+                           "google account":  "example@gmail.com",
+                           "requirement":  "not finished util successfully signed in"
+                       }
+    },
+    {
+        "id":  "S8",
+        "name":  "calculation",
+        "description":  "calculate 8+5",
+        "extra-info":  {
+                           "rule":  "the calculator can be operated only by touching its buttons"
+                       }
+    },
+    {
+        "id":  "S9",
+        "name":  "weather query",
+        "description":  "search weather for a new city",
+        "extra-info":  {
+                           "target-city-name":  "Delhi"
+                       }
+    },
+    {
+        "id":  "S10",
+        "name":  "set alarm clock",
+        "description":  "create a new alarm clock for 7:00 AM",
+        "extra-info":  {
+                           "alarm time":  "7:00 AM"
+                       }
+    },
+    {
+        "id":  "S11",
+        "name":  "open downloads",
+        "description":  "open the Downloads section in the file manager",
+        "extra-info":  {
+                           "target section":  "Downloads"
+                       }
+    }
+]

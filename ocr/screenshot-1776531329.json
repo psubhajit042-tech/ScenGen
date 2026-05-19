@@ -1,0 +1,69 @@
+{
+    "img_shape": [
+        1604,
+        720,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "22:25",
+            "column_min": 47,
+            "row_min": 28,
+            "column_max": 111,
+            "row_max": 53,
+            "width": 64,
+            "height": 25
+        },
+        {
+            "id": 1,
+            "content": "R.61 5G 100",
+            "column_min": 507,
+            "row_min": 27,
+            "column_max": 675,
+            "row_max": 57,
+            "width": 168,
+            "height": 30
+        },
+        {
+            "id": 2,
+            "content": "eb",
+            "column_min": 249,
+            "row_min": 24,
+            "column_max": 284,
+            "row_max": 57,
+            "width": 35,
+            "height": 33
+        },
+        {
+            "id": 3,
+            "content": "AC",
+            "column_min": 70,
+            "row_min": 706,
+            "column_max": 134,
+            "row_max": 749,
+            "width": 64,
+            "height": 43
+        },
+        {
+            "id": 4,
+            "content": "%",
+            "column_min": 254,
+            "row_min": 707,
+            "column_max": 296,
+            "row_max": 747,
+            "width": 42,
+            "height": 40
+        },
+        {
+            "id": 5,
+            "content": "+",
+            "column_min": 594,
+            "row_min": 1221,
+            "column_max": 635,
+            "row_max": 1263,
+            "width": 41,
+            "height": 42
+        }
+    ]
+}

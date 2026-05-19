@@ -1,0 +1,15 @@
+{
+  "benchmark_images_dir": "ocr_lab/dataset/benchmark_images",
+  "ground_truth_file": "ocr_lab/dataset/ground_truth/benchmark_ground_truth.json",
+  "baseline_output": "ocr_lab/results/baseline_predictions.json",
+  "candidate_output": "ocr_lab/results/candidate_predictions.json",
+  "comparison_output": "ocr_lab/results/comparison_summary.json",
+  "baseline_model_root": ".",
+  "baseline_det_dir": "ch_ppocr_mobile_v2.0_det_infer",
+  "baseline_cls_dir": "ch_ppocr_mobile_v2.0_cls_infer",
+  "baseline_rec_dir": "ch_ppocr_mobile_v2.0_rec_infer",
+  "candidate_model_root": "ocr_lab/models/candidate_finetuned",
+  "candidate_det_dir": "ch_ppocr_mobile_v2.0_det_infer",
+  "candidate_cls_dir": "ch_ppocr_mobile_v2.0_cls_infer",
+  "candidate_rec_dir": "my_rec_infer"
+}
