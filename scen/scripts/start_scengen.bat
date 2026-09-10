@@ -36,16 +36,16 @@ where ollama >nul 2>nul
 if errorlevel 1 (
     echo Ollama was not found in PATH.
     echo Install Ollama and run:
-    echo   ollama pull llama3:8b
+    echo   ollama pull qwen2.5vl:7b
     echo   ollama serve
     exit /b 1
 )
 
-ollama list | findstr /i /c:"llama3:8b" >nul
+ollama list | findstr /i /c:"qwen2.5vl:7b" >nul
 if errorlevel 1 (
-    echo Ollama model llama3:8b was not found.
+    echo Ollama model qwen2.5vl:7b was not found.
     echo Run:
-    echo   ollama pull llama3:8b
+    echo   ollama pull qwen2.5vl:7b
     exit /b 1
 )
 

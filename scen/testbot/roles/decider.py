@@ -31,7 +31,7 @@ from testbot.utils import (
 
 def _unwrap_action(raw: Optional[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
     """
-    Llama often wraps the real action payload inside a parent envelope:
+    The VLM (Qwen2.5-VL) often wraps the real action payload inside a parent envelope:
         {"description": "...", "reasoning": "...", "action": {<real payload>}}
 
     Strategy (applied in order):
@@ -58,7 +58,7 @@ def _deep_find(raw: Optional[Dict[str, Any]], *keys: str) -> Optional[Dict[str, 
     Returns a flat dict that contains the first key found, promoting it to the
     top level if it was buried inside a nested object.
 
-    Handles Llama returning the wrong schema for a sub-prompt
+    Handles the VLM returning the wrong schema for a sub-prompt
     (e.g. target-widget-number or position buried inside "action": {...}).
     """
     if raw is None:
@@ -388,7 +388,7 @@ class ActionDecider:
 
         response, p_usage, r_usage = self.chat_manager.get_response(
             stage=self.stage,
-            model="gpt-4-vision-preview",
+            model="qwen2.5vl:7b",
             prompt=user_message,
             system=sys_prompt,
         )
@@ -476,7 +476,7 @@ class ActionDecider:
         logger.info("Querying Target Widget")
         response, p_usage, r_usage = self.chat_manager.get_response(
             stage=self.stage,
-            model="gpt-4-vision-preview",
+            model="qwen2.5vl:7b",
             prompt=user_message,
         )
         logger.info("Query Result Received")
@@ -506,7 +506,7 @@ class ActionDecider:
             logger.info("Analyzing Missing Target Widget")
             response, p_usage, r_usage = self.chat_manager.get_response(
                 stage="temporary",
-                model="gpt-4-vision-preview",
+                model="qwen2.5vl:7b",
                 prompt=user_message,
             )
             logger.info("Analysis Result Received")
@@ -544,7 +544,7 @@ class ActionDecider:
             logger.info("Querying Possible Location")
             response, p_usage, r_usage = self.chat_manager.get_response(
                 stage="action-decision",
-                model="gpt-4-vision-preview",
+                model="qwen2.5vl:7b",
                 prompt=user_message,
             )
             logger.info("Possible Location Received")
@@ -601,7 +601,7 @@ class ActionDecider:
             logger.info("Rematching Target Widget")
             response, p_usage, r_usage = self.chat_manager.get_response(
                 stage=self.stage,
-                model="gpt-4-vision-preview",
+                model="qwen2.5vl:7b",
                 prompt=user_message,
             )
             logger.info("Rematch Result Received")
@@ -631,7 +631,7 @@ class ActionDecider:
                 logger.info("Querying Possible Location")
                 response, p_usage, r_usage = self.chat_manager.get_response(
                     stage="action-decision",
-                    model="gpt-4-vision-preview",
+                    model="qwen2.5vl:7b",
                     prompt=user_message,
                 )
                 logger.info("Possible Location Received")
@@ -680,7 +680,7 @@ class ActionDecider:
             logger.info("Re-predicting Target Widget Location")
             response, p_usage, r_usage = self.chat_manager.get_response(
                 stage=self.stage,
-                model="gpt-4-vision-preview",
+                model="qwen2.5vl:7b",
                 prompt=user_message,
             )
             logger.info("Prediction Result Received")
@@ -721,7 +721,7 @@ class ActionDecider:
         logger.info("Querying Situation")
         response, p_usage, r_usage = self.chat_manager.get_response(
             stage="temporary",
-            model="gpt-4-vision-preview",
+            model="qwen2.5vl:7b",
             prompt=user_prompt,
         )
         logger.info("Situation Feedback Received.")
@@ -767,7 +767,7 @@ class ActionDecider:
         logger.info("Confirming Input Location")
         response, p_usage, r_usage = self.chat_manager.get_response(
             stage="temporary",
-            model="gpt-4-vision-preview",
+            model="qwen2.5vl:7b",
             prompt=user_message,
         )
         logger.info("Confirm Result Received")

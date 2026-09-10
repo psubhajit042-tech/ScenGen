@@ -29,15 +29,15 @@ source "venv/bin/activate"
 if ! command -v ollama >/dev/null 2>&1; then
     echo "Ollama was not found in PATH."
     echo "Install Ollama and run:"
-    echo "  ollama pull llama3:8b"
+    echo "  ollama pull qwen2.5vl:7b"
     echo "  ollama serve"
     exit 1
 fi
 
-if ! ollama list | grep -q "llama3:8b"; then
-    echo "Ollama model llama3:8b was not found."
+if ! ollama list | grep -q "qwen2.5vl:7b"; then
+    echo "Ollama model qwen2.5vl:7b was not found."
     echo "Run:"
-    echo "  ollama pull llama3:8b"
+    echo "  ollama pull qwen2.5vl:7b"
     exit 1
 fi
 

@@ -47,10 +47,14 @@ def user_prompt_ending_check(memory: Memory) -> Tuple[str, str, str, str]:
         extra_requirement = memory.basic_info["requirement"]
         task_prompt += f"Requirement: {extra_requirement}\n"
     task_prompt += (
+        "I have attached three GUI screenshots to this conversation as images,"
+        " in this order: (1) the initial screen at the start of the test,"
+        " (2) the screen before the latest performed action,"
+        " (3) the current screen after the latest performed action.\n"
         "The actions I have performed are as follows:\n"
         f"{memory.describe_performed_actions()}\n"
         "\n"
-        "Based on the screenshots and the performed actions (especially the latest"
+        "Based on these screenshots and the performed actions (especially the latest"
         " performed action), please tell me whether the test task has been completed.\n"
         "\n"
         "Note that, if the last performed action is expected to complete the task and the"
@@ -68,8 +72,10 @@ def user_prompt_ending_check(memory: Memory) -> Tuple[str, str, str, str]:
 
 def user_prompt_page_change_check() -> Tuple[str, str, str]:
     task_prompt = (
-        "Now, I will give you two consecutive APP GUI screens before and after my action. "
-        "Please judge whether my action has successfully caused the change of the APP.\n"
+        "Now, I will give you two consecutive APP GUI screens before and after my action"
+        " as images, in this order: (1) the screen before my action,"
+        " (2) the screen after my action."
+        " Please judge whether my action has successfully caused the change of the APP.\n"
         "\n"
         "Notice:\n"
         "1.In the screenshots, changes in elements such as time, battery level, network icons,"
@@ -99,8 +105,10 @@ def user_prompt_valid_change_check(memory: Memory) -> Tuple[str, str, str, str]:
     task_prompt = (
         f"I have performed action **{memory.describe_performed_action()}** during the"
         f" task scenario **{memory.target_scenario}** in the app {memory.app_name}.\n"
-        "I'll give you two consecutive app GUI screenshots before and after my action,"
-        " and the initial screenshot of the app.\n"
+        "I'll give you three app GUI screenshots as images, in this order:"
+        " (1) the initial screen of the app,"
+        " (2) the screen before my action,"
+        " (3) the screen after my action (current screen).\n"
         "Please determine whether the app has correctly responded to my action.\n"
         "\n"
         "Notice:\n"

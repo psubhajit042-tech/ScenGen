@@ -85,24 +85,24 @@ where ollama >nul 2>nul
 if errorlevel 1 (
     echo Ollama was not found in PATH.
     echo Install Ollama, then run these commands:
-    echo   ollama pull llama3:8b
+    echo   ollama pull qwen2.5vl:7b
     echo   ollama serve
 ) else (
     ollama --version
-    ollama list | findstr /i /c:"llama3:8b" >nul
+    ollama list | findstr /i /c:"qwen2.5vl:7b" >nul
     if errorlevel 1 (
-        echo Model llama3:8b is not installed yet.
+        echo Model qwen2.5vl:7b is not installed yet.
         echo Run:
-        echo   ollama pull llama3:8b
+        echo   ollama pull qwen2.5vl:7b
     ) else (
-        echo Model llama3:8b is available.
+        echo Model qwen2.5vl:7b is available.
     )
 )
 echo.
 
 echo Final run checklist
-echo 1. Make sure Ollama is running and llama3:8b is installed:
-echo      ollama pull llama3:8b
+echo 1. Make sure Ollama is running and qwen2.5vl:7b is installed:
+echo      ollama pull qwen2.5vl:7b
 echo      ollama serve
 echo.
 echo 2. Connect your Android device and verify it is visible:

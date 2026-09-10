@@ -569,6 +569,12 @@
       "name": "Music-Player-3",
       "package": "media.audioplayer.musicplayer",
       "launch-activity": "com.ijoysoft.music.activity.WelcomeActivity"
+    },
+    {
+  "id": "A96",
+  "name": "YouTube",
+  "package": "com.google.android.youtube",
+  "launch-activity": "com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
     }
   ],
   "scenarios": [
@@ -665,6 +671,24 @@
       "extra-info": {
         "target section": "Downloads"
       }
+    },
+    {
+  "id": "S12",
+  "name": "play youtube video",
+  "description": "search and play a video on YouTube",
+  "extra-info": {
+    "target video": "Turkish March",
+    "requirement": "not finished util the video is opened and playing"
+    }
+    },
+    {
+  "id": "S13",
+  "name": "search youtube video",
+  "description": "search for a video on YouTube",
+  "extra-info": {
+    "target query": "Turkish March piano",
+    "requirement": "not finished util the search results are visible"
+    }
     }
   ]
 }

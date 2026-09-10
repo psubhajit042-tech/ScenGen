@@ -71,23 +71,23 @@ echo "[6/6] Checking Ollama..."
 if ! command -v ollama >/dev/null 2>&1; then
     echo "Ollama was not found in PATH."
     echo "Install Ollama, then run:"
-    echo "  ollama pull llama3:8b"
+    echo "  ollama pull qwen2.5vl:7b"
     echo "  ollama serve"
 else
     ollama --version
-    if ollama list | grep -q "llama3:8b"; then
-        echo "Model llama3:8b is available."
+    if ollama list | grep -q "qwen2.5vl:7b"; then
+        echo "Model qwen2.5vl:7b is available."
     else
-        echo "Model llama3:8b is not installed yet."
+        echo "Model qwen2.5vl:7b is not installed yet."
         echo "Run:"
-        echo "  ollama pull llama3:8b"
+        echo "  ollama pull qwen2.5vl:7b"
     fi
 fi
 echo
 
 echo "Final run checklist"
-echo "1. Make sure Ollama is running and llama3:8b is installed:"
-echo "     ollama pull llama3:8b"
+echo "1. Make sure Ollama is running and qwen2.5vl:7b is installed:"
+echo "     ollama pull qwen2.5vl:7b"
 echo "     ollama serve"
 echo
 echo "2. Connect your Android device and verify it is visible:"

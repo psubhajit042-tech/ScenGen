@@ -66,7 +66,7 @@ ollama --version
 Then install and run the Ollama model used by the project:
 
 ```bash
-ollama pull llama3:8b
+ollama pull qwen2.5vl:7b
 ollama serve
 ```
 

@@ -1,4 +1,5 @@
 import os
+import time
 from typing import Any, Dict, Optional
 
 from testbot.memory import Memory
@@ -52,11 +53,18 @@ class TestAgent:
             self.memory.target_scenario = self.scenario["description"]
             if "extra-info" in self.scenario.keys():
                 self.memory.add_basic_info(self.scenario["extra-info"])
+            self.device_manager.close_app(self.memory.app_package)
+            time.sleep(1)
             self.device_manager.launch_app(
                 self.memory.app_package,
                 self.memory.app_launch_activity,
             )
             current_package, current_activity = self.device_manager.get_current_app_message()
+            for _ in range(6):
+                if current_package == self.memory.app_package:
+                    break
+                time.sleep(1)
+                current_package, current_activity = self.device_manager.get_current_app_message()
             if current_package != self.memory.app_package:
                 logger.error(
                     "App launch verification failed: expected "
