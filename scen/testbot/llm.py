@@ -1,5 +1,13 @@
+import base64
+import os
+import re
+
 import requests
+
 from testbot.logger import logger
+
+OLLAMA_URL = os.environ.get("SCENGEN_OLLAMA_URL", "http://localhost:11434/api/generate")
+MODEL_NAME = os.environ.get("SCENGEN_LLM", "qwen2.5vl:7b")
 
 
 class ChatContext:
@@ -69,6 +77,92 @@ class LLMChatManager:
         if isinstance(prompt, str):
             return prompt
         return ""
+
+    @staticmethod
+    def _prompt_images(prompt):
+        if isinstance(prompt, dict):
+            path = prompt.get("image")
+            if isinstance(path, str) and path:
+                return [path]
+        return []
+
+    def _context_images(self, ctx):
+        images = []
+        for msg in ctx.user_messages:
+            images.extend(self._prompt_images(msg))
+        deduped = []
+        for path in images:
+            if not deduped or deduped[-1] != path:
+                deduped.append(path)
+        return deduped
+
+    @staticmethod
+    def _encode_image(path):
+        try:
+            with open(path, "rb") as f:
+                return base64.b64encode(f.read()).decode("utf-8")
+        except OSError as e:
+            logger.error(f"Could not read image {path}: {e}")
+            return None
+
+    _BINARY_SCHEMA = {
+        "type": "object",
+        "properties": {
+            "answer": {"type": "string", "enum": ["YES", "NO"]},
+            "reason": {"type": "string"},
+        },
+        "required": ["answer"],
+    }
+
+    @classmethod
+    def _json_schema_for_prompt(cls, stage, prompt):
+        text = cls._prompt_text(prompt)
+        if stage in ("visual-change-check", "valid-change-check", "loading-check", "ending-check"):
+            return cls._BINARY_SCHEMA
+        if "`target-widget-number`" in text:
+            return {
+                "type": "object",
+                "properties": {"target-widget-number": {"type": "integer"}},
+                "required": ["target-widget-number"],
+            }
+        if "`widget-number` and `position`" in text:
+            return {
+                "type": "object",
+                "properties": {
+                    "widget-number": {"type": "integer"},
+                    "position": {"type": "string"},
+                },
+                "required": ["widget-number", "position"],
+            }
+        if "`position`" in text:
+            return {
+                "type": "object",
+                "properties": {"position": {"type": "string"}},
+                "required": ["position"],
+            }
+        if "`option-number`" in text:
+            return {
+                "type": "object",
+                "properties": {"option-number": {"type": "integer"}},
+                "required": ["option-number"],
+            }
+        if "`situation-number`" in text:
+            return {
+                "type": "object",
+                "properties": {"situation-number": {"type": "integer"}},
+                "required": ["situation-number"],
+            }
+        return {
+            "type": "object",
+            "properties": {
+                "intent": {"type": "string"},
+                "action-type": {
+                    "type": "string",
+                    "enum": ["touch", "input", "scroll", "back"],
+                },
+            },
+            "required": ["intent", "action-type"],
+        }
 
     @classmethod
     def _strict_rules_for_prompt(cls, stage, prompt) -> str:
@@ -162,20 +256,32 @@ class LLMChatManager:
         final_prompt = strict_rules + "\n\n" + ctx.messages()
 
         payload = {
-            "model": "llama3:8b",
+            "model": MODEL_NAME,
             "prompt": final_prompt,
             "stream": False,
+            "keep_alive": "30m",
             "options": {
                 "temperature": 0,
-                "top_p": 0.1
-            }
+                "top_p": 0.1,
+                "num_ctx": 8192,
+            },
         }
+
+        schema = self._json_schema_for_prompt(stage, prompt)
+        if schema:
+            payload["format"] = schema
+
+        image_paths = self._context_images(ctx)
+        if image_paths:
+            encoded = [b64 for b64 in map(self._encode_image, image_paths) if b64]
+            if encoded:
+                payload["images"] = encoded
 
         try:
             r = requests.post(
-                "http://localhost:11434/api/generate",
+                OLLAMA_URL,
                 json=payload,
-                timeout=120,
+                timeout=300,
             )
             r.raise_for_status()
             data = r.json()
@@ -183,7 +289,7 @@ class LLMChatManager:
             logger.error("Ollama not reachable at localhost:11434 — is it running?")
             return "{}", 0, 0
         except requests.exceptions.Timeout:
-            logger.error("Ollama request timed out after 120s")
+            logger.error(f"Ollama request timed out after 300s")
             return "{}", 0, 0
         except Exception as e:
             logger.error(f"LLM request failed: {e}")
@@ -197,12 +303,11 @@ class LLMChatManager:
 
         answer = data["response"]
         # Normalise bare F/T/"F"/"T"/True/False -> JSON true/false
-        import re as _re
-        answer = _re.sub(r':\s*"F"', ': false', answer)
-        answer = _re.sub(r':\s*"T"', ': true',  answer)
-        answer = _re.sub(r':\s*True',  ': true',  answer)
-        answer = _re.sub(r':\s*False', ': false', answer)
-        answer = _re.sub(r':\s*F',  ': false', answer)
-        answer = _re.sub(r':\s*T',  ': true',  answer)
+        answer = re.sub(r':\s*"F"', ': false', answer)
+        answer = re.sub(r':\s*"T"', ': true',  answer)
+        answer = re.sub(r':\s*True',  ': true',  answer)
+        answer = re.sub(r':\s*False', ': false', answer)
+        answer = re.sub(r':\s*F',  ': false', answer)
+        answer = re.sub(r':\s*T',  ': true',  answer)
         ctx.append_assistant_message(answer)
         return answer, 0, 0

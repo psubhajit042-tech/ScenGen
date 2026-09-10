@@ -38,6 +38,34 @@ Use it to:
 
 ## Quick start
 
+Single entrypoint:
+
+```powershell
+venv\Scripts\python.exe ocr_lab\scripts\run_pipeline.py status
+```
+
+Run ScenGen with your candidate recognizer:
+
+```powershell
+venv\Scripts\python.exe ocr_lab\scripts\run_pipeline.py scengen `
+  --mode candidate `
+  --app-id <APP-ID> `
+  --scenario-id <SCENARIO-ID>
+```
+
+Run the OCR benchmark with your candidate recognizer:
+
+```powershell
+venv\Scripts\python.exe ocr_lab\scripts\run_pipeline.py benchmark `
+  --mode candidate
+```
+
+Compare baseline and candidate benchmark outputs:
+
+```powershell
+venv\Scripts\python.exe ocr_lab\scripts\run_pipeline.py compare
+```
+
 Sample a few existing screenshots from `data/input`:
 
 ```powershell

@@ -1,123 +1,79 @@
 {
   "images": [
     {
+      "file": "Screenshot_2026-05-20-11-06-49-89_b783bf344239542886fee7b48fa4b892.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-06-55-89_b783bf344239542886fee7b48fa4b892.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-06-59-95_b783bf344239542886fee7b48fa4b892.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-07-03-94_b783bf344239542886fee7b48fa4b892.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-07-07-17_b783bf344239542886fee7b48fa4b892.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-07-34-83.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-07-49-90_40deb401b9ffe8e1df2f1cc5ba480b12.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-07-59-26_d1e180874abfbe4d796ce10558f8141a.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-08-37-80_c4b2fae5edd267b2847f1b32e9bc41c3.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-08-43-48_c4b2fae5edd267b2847f1b32e9bc41c3.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-08-49-53_c4b2fae5edd267b2847f1b32e9bc41c3.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-08-56-25_c4b2fae5edd267b2847f1b32e9bc41c3.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-09-09-59_3525649af8aa1b1507fdd202f24ce50a.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-09-22-92_00217db35943901a424ec53d246d5271.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-09-31-67_00217db35943901a424ec53d246d5271.jpg",
+      "expected_text": ""
+    },
+    {
+      "file": "Screenshot_2026-05-20-11-10-09-83_99c04817c0de5652397fc8b56c3b3817.jpg",
+      "expected_text": ""
+    },
+    {
       "file": "screenshot-1776354130.png",
       "expected_text": "featured office search"
-    },
-    {
-      "file": "screenshot-1776354210.png",
-      "expected_text": "compose send subject"
-    },
-    {
-      "file": "screenshot-1776354388.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776354408.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776354441.png",
-      "expected_text": ""
     },
     {
       "file": "screenshot-1776354498.png",
       "expected_text": ""
     },
     {
-      "file": "screenshot-1776355295.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776355404.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776355465.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776355583.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776356182.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776356548.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776526798.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776529150.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776529321.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776529428.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776529584.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776530081.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776530369.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776530775.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776531130.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776531290.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776531329.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776531513.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776531687.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776531923.png",
-      "expected_text": ""
-    },
-    {
       "file": "screenshot-1776532408.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776533003.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776534636.png",
-      "expected_text": ""
-    },
-    {
-      "file": "screenshot-1776534760.png",
       "expected_text": ""
     }
   ]

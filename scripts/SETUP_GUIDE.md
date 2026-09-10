@@ -8,7 +8,7 @@ This guide is written so any student can run ScenGen on their own machine.
 - `pip`
 - `adb` in `PATH`
 - `Ollama`
-- local model `llama3:8b`
+- local model `qwen2.5vl:7b`
 - the full ScenGen project folder on your machine
 
 ## Windows
@@ -28,7 +28,7 @@ scripts\setup_scengen_from_scratch.bat
 Install the local LLM once:
 
 ```bat
-ollama pull llama3:8b
+ollama pull qwen2.5vl:7b
 ```
 
 Make sure Ollama is running, then run:
@@ -62,7 +62,7 @@ Run setup:
 Install the local LLM once:
 
 ```bash
-ollama pull llama3:8b
+ollama pull qwen2.5vl:7b
 ```
 
 Make sure Ollama is running, then run:

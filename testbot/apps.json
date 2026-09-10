@@ -568,5 +568,11 @@
         "name":  "Music-Player-3",
         "package":  "media.audioplayer.musicplayer",
         "launch-activity":  "com.ijoysoft.music.activity.WelcomeActivity"
+    },
+    {
+        "id":  "A96",
+        "name":  "YouTube",
+        "package":  "com.google.android.youtube",
+        "launch-activity":  "com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
     }
 ]

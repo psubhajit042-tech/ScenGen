@@ -78,7 +78,7 @@ class TestSupervisor:
         logger.info("Start Loading Check")
         response, p_usage, r_usage = self.chat_manager.get_response(
             stage=self.stage_load,
-            model="gpt-4-vision-preview",
+            model="qwen2.5vl:7b",
             prompt=user_message,
             system=sys_prompt,
         )
@@ -108,7 +108,7 @@ class TestSupervisor:
         logger.info("Start Ending Check")
         response, p_usage, r_usage = self.chat_manager.get_response(
             stage=self.stage_end,
-            model="gpt-4-vision-preview",
+            model="qwen2.5vl:7b",
             prompt=task_prompt,
         )
         logger.info("Check Result Received")
@@ -147,7 +147,7 @@ class TestSupervisor:
         logger.info("Checking Page Change")
         response, p_usage, r_usage = self.chat_manager.get_response(
             stage=self.stage_visual_change,
-            model="gpt-4-vision-preview",
+            model="qwen2.5vl:7b",
             prompt=curr_screen_message,
         )
         logger.info("Check Result Received")
@@ -177,7 +177,7 @@ class TestSupervisor:
         logger.info("Checking Valid Page Change")
         response, p_usage, r_usage = self.chat_manager.get_response(
             stage=self.stage_valid_change,
-            model="gpt-4-vision-preview",
+            model="qwen2.5vl:7b",
             prompt=curr_screen_message,
         )
         logger.info("Check Result Received")
